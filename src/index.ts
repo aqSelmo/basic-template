@@ -1,5 +1,6 @@
 import { logger } from '@config/logger';
+import { Logger } from 'winston';
 
-const main = () => logger.info('endpoint reached');
+const main = (): Logger => logger.info('endpoint reached');
 
 main();
